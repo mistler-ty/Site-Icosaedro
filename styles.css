@@ -1,0 +1,66 @@
+/* Estilo minimalista em tons de cinza */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #ccc;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.dados p {
+  margin: 0.2rem;
+  font-size: 0.9rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 1rem;
+  border-top: 2px solid #ccc;
+  font-size: 0.8rem;
+}

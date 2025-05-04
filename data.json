@@ -1,0 +1,40 @@
+{
+  "informacoes": [
+    {
+      "titulo": "Nome da Figura",
+      "emoji": "🔷",
+      "texto": "Icosaedro. Popularmente conhecido como D20"
+    },
+    {
+      "titulo": "Aplicações no Dia a Dia",
+      "emoji": "⚽",
+      "texto": "Utilizado em design de bolas de futebol clássico e em jogos de RPG com dados de 20 lados."
+    },
+    {
+      "titulo": "Fórmula de Volume",
+      "emoji": "📐",
+      "texto": " Como o Icosaedro é uma forma geométrica tridimensional, ela tem volume, e a forma de calcular o seu volume é: Volume = (5(3 + √5)/12) × a³ onde a é o comprimento de um dos lados do icosaedro."
+    },
+    {
+      "titulo": "Fórmula de Área",
+      "emoji": "📏",
+      "texto": " Para calcular a área superficial de um isocaedro usamos  a fórmula A = 5 * a^2 * 3/2, onde a é o comprimento de um dos lados do icosaedro"
+    },
+    {
+      "titulo": "Curiosidades",
+      "emoji": "✨",
+      "texto": "É um dos cinco sólidos de Platão e possui 20 faces triangulares equiláteras. "
+    },
+    {
+      "titulo": "Curiosidades",
+      "emoji": "🧊",
+      "texto": "Os sólidos de Platão são poliedros que satisfazem três condições: são convexos; todas as faces possuem o mesmo número de arestas; os vértices são extremidades de uma mesma quantidade de arestas "
+    },
+    {
+      "titulo": "Outros Dados Interessantes",
+      "emoji": "🧮",
+      "texto": "Possui 30 arestas e 12 vértices. Aparece em estruturas virais e na geometria molecular."
+    }
+    
+  ]
+}

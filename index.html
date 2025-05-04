@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Icosaedro - Geometria</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Icosaedro</h1>
+    <div class="dados">
+      <p><strong>Grupo:</strong> Geometria Visual</p>
+      <p><strong>Turma:</strong> 3B</p>
+      <p><strong>Professor:</strong> Prof. Carlos Andrade</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="cards" id="info-container">
+      <!-- Conteúdo será inserido via JSON -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mistler S&Y</p>
+  </footer>
+
+  <script>
+    fetch('data.json')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('info-container');
+        data.informacoes.forEach(info => {
+          const card = document.createElement('div');
+          card.className = 'card';
+
+          const icon = document.createElement('div');
+          icon.className = 'icon';
+          icon.textContent = info.emoji;
+
+          const title = document.createElement('h3');
+          title.textContent = info.titulo;
+
+          const desc = document.createElement('p');
+          desc.textContent = info.texto;
+
+          card.appendChild(icon);
+          card.appendChild(title);
+          card.appendChild(desc);
+          container.appendChild(card);
+        });
+      });
+  </script>
+</body>
+</html>
